@@ -5,6 +5,7 @@ import Centerbuttons from "./Centerbuttons";
 import Socials from "./Socials";
 import Rightrole from "./Rightrole";
 import Leftrole from "./Leftrole";
+import Video from "../../assets/Videobg.mp4"
 
 
 const Section1 = () => {
@@ -18,7 +19,7 @@ const Section1 = () => {
         muted
         playsInline
         className="absolute inset-0 w-full h-full md:h-screen object-cover -z-10">
-        <source src='src\assets\videobg.mp4'/>
+        <source src={Video}/>
         Your browser does not support the video tag.
       </video>
 
