@@ -5,7 +5,7 @@ import Centerbuttons from "./Centerbuttons";
 import Socials from "./Socials";
 import Rightrole from "./Rightrole";
 import Leftrole from "./Leftrole";
-import Video from "../../assets/Videobg.mp4"
+import Video from "../../assets/videobg.mp4"
 
 
 const Section1 = () => {
