@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center justify-center">
           <img
             className="absolute top-2 md:top-1 left-2 md:left-1 w-16 md:w-30 h-16 md:h-30 -rotate-45 grayscale-90"
-            src="..\src\assets\images\93d5c9ad7d15f32d4d3169517af2e099.jpg-Photoroom.png"
+            src="src\assets\93d5c9ad7d15f32d4d3169517af2e099.jpg-Photoroom.png"
             alt=""
           />
         </div>

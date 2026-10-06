@@ -6,7 +6,7 @@ const Photobg = () => {
       <div className="absolute inset-0 bg-white/20 rounded-2xl blur-3xl md:blur-3xl z-10 scale-55 " />
 
       <img
-        src="..\src\assets\images\Modern Office Portrait in Dark Suit_processed-Photoroom.png"
+        src="src\assets\Modern Office Portrait in Dark Suit_processed-Photoroom.png"
         alt="Naman"
         className="h-full md:h-max w-auto object-contain object-bottom relative z-20"
       />

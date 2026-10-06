@@ -1,7 +1,8 @@
 import React from "react";
-import Section1 from "./assets/components/Section1/Section1";
+
 import { Route, Routes } from "react-router-dom";
-import About from "./assets/components/About/About";
+import About from "./components/About/About";
+import Section1 from "./components/Section1/Section1";
 
 
 const App = () => {
