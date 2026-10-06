@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Jost;
+    src: url("../src/assets/fonts/Jost-Regular.ttf");
+    
+}
+@font-face {
+    font-family: KronaOne;
+    src: url("../src/assets/fonts/KronaOne-Regular.ttf")
+}
+
+@import "tailwindcss";
+
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+html.lenis, html.lenis body {
+ height: auto;
+}
+.lenis.lenis-smooth {
+ scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+ overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+ overflow: hidden;
+}
+.lenis.lenis-smooth iframe {
+ pointer-events: none;
+}
+
+@theme{
+    --font-jost: Jost , "sans-serif"
+    
+}
+
+@theme{
+    --font-kronaone : KronaOne , "sans-serif"
+}
