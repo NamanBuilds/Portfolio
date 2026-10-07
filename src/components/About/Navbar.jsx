@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Header  */}
-      <header className="absolute top-0 w-full flex justify-between items-start p-4 md:p-6 md:px-12 md:py-8 z-40">
+      <header className="absolute top-0 w-full flex justify-between items-start p-4 md:p-8 md:px-12  z-40">
         {/* Logo */}
         <div className="flex items-center justify-center ">
           <Link to={"/"}>
@@ -24,12 +24,12 @@ const Navbar = () => {
         <nav className="hidden select-none md:flex gap-13 mt-2 mr-90">
           <Link
             to={"/"}
-            className="px-6 lg:px-8 py-1 bg-white text-black border-3 border-white font-jost rounded-full font-bold tracking-widest hover:bg-white hover:text-black hover:scale-120 duration-300 transition-all text-sm lg:text-base">
+            className="px-6 lg:px-8 py-1 bg-transparent text-white border-3 font-jost rounded-full font-bold tracking-widest hover:bg-white hover:text-black hover:scale-120 duration-300 transition-all text-sm lg:text-base">
             HOME
           </Link>
           <Link
             to={"/about"}
-            className="px-6 lg:px-8 py-1 bg-transparent text-white border-3 font-jost rounded-full font-bold tracking-widest hover:bg-white hover:text-black hover:scale-120 duration-300 transition-all text-sm lg:text-base">
+            className="px-6 lg:px-8 py-1 bg-white text-black border-3 border-white font-jost rounded-full font-bold tracking-widest hover:bg-white hover:text-black hover:scale-120 duration-300 transition-all text-sm lg:text-base">
             ABOUT
           </Link>
           <Link

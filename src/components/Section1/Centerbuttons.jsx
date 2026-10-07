@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Centerbuttons = () => {
   return (
@@ -10,9 +11,9 @@ const Centerbuttons = () => {
         </button>
         
         
-        <button className="text-xl md:text-3xl tracking-widest border-4 border-white hover:scale-110 hover:border-0 duration-200 ease-in transition-all rounded-full w-full max-w-55 md:w-75 h-14 md:h-18 hover:bg-white hover:border-black hover:text-[#2d004f] font-jost">
+        <Link to={"/projects"} className="text-xl md:text-3xl tracking-widest border-4 md:text-center md:pt-3 border-white hover:scale-110 hover:border-0 duration-200 ease-in transition-all rounded-full w-full max-w-55 md:w-75 h-14 md:h-18 hover:md:pt-3.5 hover:bg-white hover:border-black hover:text-[#2d004f] font-jost">
           PROJECTS
-        </button> 
+        </Link> 
       </div>
   )
 }

@@ -7,16 +7,16 @@ const Socials = () => {
       
       <div className="flex md:flex-col gap-3 md:gap-4 w-28 md:w-40 ">
         {/* GITHUB*/}
-        <button className="flex items-center justify-between px-2 md:px-4 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:rotate-3 duration-300 transition-all">
+        <a href="https://github.com/NamanBuilds" className="flex items-center justify-between px-2 md:px-4 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:rotate-3 duration-300 transition-all">
           <i className="ri-github-fill text-lg md:text-2xl"></i>
           <span>GITHUB</span>
-        </button>
+        </a>
 
         {/* LINKEDIN  */}
-        <button className="flex items-center justify-between px-2 md:px-4 py-1.5 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:-rotate-3 duration-300 transition-all">
+        <a href="https://www.linkedin.com/in/naman-chourey-6b310935a?utm_source=share_via&utm_content=profile&utm_medium=member_android" className="flex items-center justify-between px-2 md:px-4 py-1.5 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:-rotate-3 duration-300 transition-all">
           <i className="ri-linkedin-fill text-lg md:text-2xl"></i>
           <span>LINKEDIN</span>
-        </button>
+        </a>
 
         {/* RESUME*/}
         <button className="flex items-center justify-between px-2 md:px-4 py-1.5 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:rotate-3 duration-300 transition-all">
@@ -25,10 +25,10 @@ const Socials = () => {
         </button>
 
         {/* INSTAGRAM */}
-        <button className="flex items-center justify-between px-2 md:px-4 py-1.5 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:-rotate-3 duration-300 transition-all">
+        <a href="https://www.instagram.com/_namanchourey?stkn=MXB0cmYxODFoNHV5cQ==" className="flex items-center justify-between px-2 md:px-4 py-1.5 md:py-2 border-2 md:border-3 border-white rounded-full text-[10px] md:text-[14px] font-bold tracking-widest font-jost hover:text-black hover:bg-white hover:border-0 hover:scale-110 hover:-rotate-3 duration-300 transition-all">
           <i className="ri-instagram-line text-lg md:text-2xl "></i>
           <span>INSTAGRAM</span>
-        </button>
+        </a>
       </div>
     </div>
   );

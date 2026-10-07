@@ -8,6 +8,12 @@
     src: url("../src/assets/fonts/KronaOne-Regular.ttf")
 }
 
+@font-face {
+    font-family: bangers;
+    src: url("../src/assets/fonts/Bangers-Regular.ttf");
+}
+
+
 @import "tailwindcss";
 
 
