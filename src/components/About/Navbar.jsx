@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Header  */}
-      <header className="absolute top-0 w-full flex justify-between items-start p-4 md:p-8 md:px-12  z-40">
+      <header className="absolute z-40 top-0 w-full flex justify-between items-start p-4 md:p-8 md:px-12 ">
         {/* Logo */}
         <div className="flex items-center justify-center ">
           <Link to={"/"}>
